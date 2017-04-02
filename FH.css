@@ -1,0 +1,111 @@
+.logo {
+    height: 5.5em;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    background-image: url(http://www.psdgraphics.com/file/basketball-floor-texture.jpg);
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@keyframes example {
+    0% {color: pink; font-style: bold;}
+    25% {color: yellow; font-style: italic;}
+    50% {color: blue; font-style: underline;}
+    100% {color: green; font-style: bold;}
+}
+
+.container2 a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    animation-name: example;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.title {
+    font-family: impact;
+}
+
+.subtitle {
+    font-family: Arial;
+}
+
+.statBox{
+    margin-left: 20vw;
+}
+
+.photo{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.dataBox{
+    float: bottom;
+    float: left;
+}
